@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+        <testsuite name="pytest" errors="0" failures="1" skipped="0" tests="6" time="0.138" timestamp="2021-02-12T14:34:24.093417" hostname="LAPTOP-D2G291JT">
+                <testcase classname="test_demo_1" name="test_1" time="0.002" />
+                <testcase classname="test_demo_1" name="test_sample" time="0.001" />
+                <testcase classname="test_demo_1" name="test_3" time="0.001">
+                <failure message="AssertionError: name is not present in string&#10;assert 'python' in 'Python language'">def test_3():
+        name = "python"
+        str = "Python language"
+&gt;       assert name in str, "name is not present in string"
+E       AssertionError: name is not present in string
+E       assert 'python' in 'Python language'
+
+test_demo_1.py:17: AssertionError
+                </failure>
+                </testcase>
+                <testcase classname="test_two" name="test_one" time="0.001" />
+                <testcase classname="test_two" name="test_two" time="0.001" />
+                <testcase classname="test_two" name="test_three" time="0.001" />
+        </testsuite>
+</testsuites>
